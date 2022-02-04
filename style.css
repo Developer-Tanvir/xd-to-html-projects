@@ -44,6 +44,10 @@ h1,h2,h3,h4{
   color: #fff;
   padding: 10px 16px;
   border-radius: 5px;
+  transition: .3s;
+}
+.btn a:hover{
+  background-color: var(--text-color);
 }
 .section-headding{
   display: flex;
@@ -267,6 +271,7 @@ button img {
   justify-content: space-between;
   column-gap: 1rem;
 }
+
 .service-btn a {
   font-size: 18px;
   color: var(--text-color);
@@ -276,7 +281,10 @@ button img {
   border-radius: 10px;
   text-align: center;
 }
-
+.service-btn a:hover{
+  background-color: var(--primary-color);
+  color: #fff;
+}
 .service-image{
   display: flex;
   padding-top: 50px;
